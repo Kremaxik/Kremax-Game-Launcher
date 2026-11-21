@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+<defs>
+ <radialGradient id="bg"><stop stop-color="#613300"/><stop offset=".65" stop-color="#241007"/><stop offset="1" stop-color="#090812"/></radialGradient>
+ <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#fff98b"/><stop offset=".25" stop-color="#ffdf20"/><stop offset=".65" stop-color="#ff9c00"/><stop offset="1" stop-color="#a94200"/></linearGradient>
+ <linearGradient id="glove" x2=".8" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#b8a5ff"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<g fill="none" stroke="#ffb000" opacity=".8"><path d="M60 340 Q600 40 1140 340 Q600 640 60 340Z" stroke-width="5"/><path d="M130 340 Q600 120 1070 340" stroke-width="2"/></g>
+<circle cx="600" cy="335" r="205" fill="#ffb000" opacity=".35" filter="url(#glow)"/>
+<g transform="translate(600 340)">
+ <ellipse rx="290" ry="155" fill="#4a1d00" stroke="#271000" stroke-width="18"/>
+ <ellipse cy="-15" rx="280" ry="150" fill="url(#gold)" stroke="#fff078" stroke-width="15"/>
+ <ellipse cy="-15" rx="235" ry="112" fill="none" stroke="#f28a00" stroke-width="10"/>
+ <path d="M0 -105 L35 -35 112 -25 55 25 70 95 0 60 -70 95 -55 25 -112 -25 -35 -35Z" fill="#fff36a" stroke="#f4a000" stroke-width="8"/>
+ <path d="M-205 -80 Q-90 -165 80 -140" fill="none" stroke="#fff" stroke-width="15" opacity=".65"/>
+</g>
+<g fill="#ffe45a"><path d="M230 135l12 30 30 12-30 12-12 30-12-30-30-12 30-12Z"/><path d="M980 475l10 24 24 10-24 10-10 24-10-24-24-10 24-10Z"/><circle cx="360" cy="500" r="7"/><circle cx="850" cy="130" r="8"/></g>
+<g stroke="#ffcc38" stroke-width="9" fill="none" opacity=".9"><circle cx="370" cy="290" r="45"/><circle cx="370" cy="290" r="65"/><circle cx="855" cy="350" r="55"/><circle cx="855" cy="350" r="78"/></g>
+<g transform="translate(300 260) rotate(25)"><path d="M0 100V25Q0 0 22 0Q44 0 44 25V65V-20Q44 -45 67 -45Q90 -45 90 -20V60V-5Q90 -30 113 -30Q136 -30 136 -5V75V25Q136 0 159 0Q182 0 182 25V130Q182 205 115 205H65Q15 205 0 155Z" fill="url(#glove)" stroke="#24133f" stroke-width="14" stroke-linejoin="round"/></g>
+<g transform="translate(850 120) rotate(-30) scale(.72)"><path d="M0 100V25Q0 0 22 0Q44 0 44 25V65V-20Q44 -45 67 -45Q90 -45 90 -20V60V-5Q90 -30 113 -30Q136 -30 136 -5V75V25Q136 0 159 0Q182 0 182 25V130Q182 205 115 205H65Q15 205 0 155Z" fill="url(#glove)" stroke="#24133f" stroke-width="14" stroke-linejoin="round"/></g>
+<g stroke="#fff08a" stroke-width="8" stroke-linecap="round"><path d="M445 140l-35-55M760 165l35-60M450 525l-40 50M760 500l40 55"/></g>
+</svg>
